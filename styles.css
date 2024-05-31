@@ -1,0 +1,350 @@
+                                            /* General styles */
+                                        
+                                        body {
+                                            font-family: Arial, sans-serif;
+                                            margin: 0;
+                                            padding: 0;
+                                            box-sizing: border-box;
+                                        }
+                                        
+                                        header {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            align-items: center;
+                                            background-color: #fff;
+                                            padding: 20px;
+                                            border-bottom: 1px solid #ddd;
+                                        }
+                                        
+                                        .logo img {
+                                            border-radius: 40px;
+                                        }
+                                        
+                                        nav ul {
+                                            display: flex;
+                                            list-style: none;
+                                            padding: 0;
+                                            margin: 0;
+                                        }
+                                        
+                                        nav ul li {
+                                            margin: 0 15px;
+                                        }
+                                        
+                                        nav ul li a {
+                                            text-decoration: none;
+                                            color: #000;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .auth-buttons {
+                                            display: flex;
+                                        }
+                                        
+                                        .auth-buttons button {
+                                            margin-left: 10px;
+                                            padding: 10px 20px;
+                                            border: none;
+                                            cursor: pointer;
+                                            border-radius: 5px;
+                                        }
+                                        
+                                        .sign-in {
+                                            background-color: #ff9800;
+                                            color: #fff;
+                                        }
+                                        
+                                        .sign-up {
+                                            background-color: black;
+                                            color: #fff;
+                                        }
+                                        
+                                        .banner {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            align-items: center;
+                                            padding: 50px;
+                                            background-color: #f9f9f9;
+                                        }
+                                        
+                                        .banner-text {
+                                            max-width: 50%;
+                                        }
+                                        
+                                        .banner-text h1 {
+                                            font-size: 36px;
+                                            color: #ff5722;
+                                        }
+                                        
+                                        .banner-text p {
+                                            font-size: 18px;
+                                            color: #333;
+                                        }
+                                        
+                                        .banner-text .icons {
+                                            margin-top: 20px;
+                                            display: flex;
+                                            gap: 20px;
+                                        }
+                                        
+                                        .banner-text .icons span {
+                                            background-color: #ff9800;
+                                            padding: 10px 15px;
+                                            color: #fff;
+                                            border-radius: 5px;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .banner-image img {
+                                            max-width: 400px;
+                                            height: auto;
+                                            border-radius: 30px;
+                                        }
+                                        
+                                        .banner-imag img {
+                                            max-width: 400px;
+                                            height: auto;
+                                        }
+                                        
+                                        .membership-programme,
+                                        .startup-programme {
+                                            padding: 50px;
+                                            background-color: #fff;
+                                        }
+                                        
+                                        .programme {
+                                            display: flex;
+                                            align-items: center;
+                                            gap: 20px;
+                                        }
+                                        
+                                        .programme img {
+                                            max-width: 300px;
+                                            border-radius: 10px;
+                                        }
+                                        
+                                        .programme-details {
+                                            max-width: 60%;
+                                        }
+                                        
+                                        .programme-details h2 {
+                                            font-size: 28px;
+                                            color: #ff5722;
+                                        }
+                                        
+                                        .programme-details ul {
+                                            list-style: none;
+                                            padding: 0;
+                                        }
+                                        
+                                        .programme-details ul li {
+                                            background: url('bullet.png') no-repeat left center;
+                                            padding-left: 25px;
+                                            margin-bottom: 10px;
+                                        }
+                                        
+                                        .buttons {
+                                            margin-top: 20px;
+                                        }
+                                        
+                                        .buttons button {
+                                            padding: 10px 20px;
+                                            border: none;
+                                            cursor: pointer;
+                                            border-radius: 5px;
+                                            margin-right: 10px;
+                                        }
+                                        
+                                        .enroll-now {
+                                            background-color: #ff9800;
+                                            color: #fff;
+                                        }
+                                        
+                                        .know-more {
+                                            background-color: black;
+                                            color: #fff;
+                                        }
+                                        
+                                        .examination {
+                                            padding: 50px;
+                                            background-color: #f9f9f9;
+                                            text-align: center;
+                                        }
+                                        
+                                        .exam-details {
+                                            display: flex;
+                                            margin: 0 auto;
+                                        }
+                                        
+                                        .exam-details h2 {
+                                            font-size: 28px;
+                                            color: #ff5722;
+                                        }
+                                        
+                                        .exam-details p {
+                                            font-size: 18px;
+                                            color: #333;
+                                            margin-bottom: 20px;
+                                        }
+                                        
+                                        .exam-details button {
+                                            padding: 10px 20px;
+                                            border: none;
+                                            cursor: pointer;
+                                            background-color: #2196f3;
+                                            color: #fff;
+                                            border-radius: 5px;
+                                        }
+                                        
+                                        .exam-image img {
+                                            max-width: 100%;
+                                            height: auto;
+                                        }
+                                        
+                                        .bootstrap {
+                                            padding: 50px;
+                                            background-color: #fff;
+                                            text-align: center;
+                                        }
+                                        
+                                        .bootstrap h2 {
+                                            font-size: 28px;
+                                            color: #ff5722;
+                                        }
+                                        
+                                        .bootstrap blockquote {
+                                            font-size: 24px;
+                                            color: #333;
+                                            margin: 20px 0;
+                                        }
+                                        
+                                        .bootstrap p {
+                                            font-size: 18px;
+                                            color: #333;
+                                            margin-bottom: 20px;
+                                        }
+                                        
+                                        .compa-logo {
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            gap: 20px;
+                                        }
+                                        
+                                        .compa-logo img {
+                                            height: 100px;
+                                        }
+                                        
+                                        .compa-logo h3 {
+                                            font-size: 24px;
+                                            color: #ff5722;
+                                        }
+                                        
+                                        footer {
+                                            background-color: #333;
+                                            color: #fff;
+                                            padding: 50px;
+                                            text-align: center;
+                                        }
+                                        
+                                        .footer-content {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            align-items: flex-start;
+                                            flex-wrap: wrap;
+                                        }
+                                        
+                                        .footer-links {
+                                            display: flex;
+                                            gap: 50px;
+                                        }
+                                        
+                                        .footer-links div {
+                                            flex: 1;
+                                        }
+                                        
+                                        .footer-links h4 {
+                                            font-size: 18px;
+                                            margin-bottom: 10px;
+                                        }
+                                        
+                                        .footer-links ul {
+                                            list-style: none;
+                                            padding: 0;
+                                            margin: 0;
+                                        }
+                                        
+                                        .footer-links ul li {
+                                            margin-bottom: 10px;
+                                        }
+                                        
+                                        .footer-links ul li a {
+                                            text-decoration: none;
+                                            color: #fff;
+                                        }
+                                        
+                                        .footer-bottom {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            align-items: center;
+                                            margin-top: 20px;
+                                        }
+                                        
+                                        .footer-bottom p {
+                                            margin: 0;
+                                        }
+                                        
+                                        .social-media {
+                                            display: flex;
+                                            gap: 10px;
+                                        }
+                                        
+                                        .social-media a img {
+                                            height: 24px;
+                                        }
+                                        /* Media Queries for Responsive Design */
+                                        
+                                        @media only screen and (max-width: 768px) {
+                                            header {
+                                                flex-direction: column;
+                                                align-items: flex-start;
+                                            }
+                                            .logo img {
+                                                margin-bottom: 10px;
+                                            }
+                                            nav {
+                                                margin-top: 20px;
+                                            }
+                                            nav ul li {
+                                                margin: 10px 0;
+                                            }
+                                            .auth-buttons {
+                                                flex-direction: column;
+                                                align-items: flex-start;
+                                            }
+                                            .auth-buttons button {
+                                                margin: 10px 0;
+                                            }
+                                            .banner {
+                                                flex-direction: column;
+                                                text-align: center;
+                                            }
+                                            .banner-text {
+                                                max-width: 100%;
+                                            }
+                                            .banner-image img {
+                                                margin-top: 20px;
+                                            }
+                                            .membership-programme,
+                                            .startup-programme,
+                                            .examination,
+                                            .bootstrap {
+                                                padding: 30px;
+                                            }
+                                            .programme {
+                                                flex-direction: column;
+                                                text-align: center;
+                                            }
+                                            .programme img {
+                                                max-width: 100%;
+                                            }
